@@ -14,14 +14,27 @@
   box-sizing: border-box;
 }
 
-body {
-  /* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
-}
 
 main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
+}
+
+.card {
+  max-width: 21.8rem;
+}
+.card-sedans {
+  background-color: var(--bright-orange);
+}
+
+.card-suvs {
+  background-color: var(--dark-cyan);
+}
+
+
+.card-luxury  {
+  background-color: var(--very-dark-cyan);
 }
