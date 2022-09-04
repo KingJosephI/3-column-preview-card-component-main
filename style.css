@@ -23,8 +23,13 @@ main {
   font-size: 15px;
 }
 
+section {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
 .card {
   max-width: 21.8rem;
+  padding: 3.27rem;
 }
 .card-sedans {
   background-color: var(--bright-orange);
